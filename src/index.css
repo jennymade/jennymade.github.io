@@ -161,7 +161,7 @@ span .introYBounce:active {
 .cardContainer {
   display: inline-block;
   width: 15rem;
-  height: 20rem;
+  height: 25rem;
   margin: 1rem;
   /* perspective: 10px; */
 }
@@ -189,7 +189,7 @@ span .introYBounce:active {
 
 .front,
 .back {
-  border: 1.5px solid #000;
+  border: 2px solid #5f7539; /* #000 */
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -198,18 +198,52 @@ span .introYBounce:active {
   height: 100%;
   backface-visibility: hidden;
   background-color: #fff;
+  background-size: cover;
 }
 
 .cardRole {
-  font-size: 1rem;
+  color: #5f7539;
+  font-size: 1.25rem !important;
   font-weight: 500;
   font-style: normal;
-  line-height: 1;
+  line-height: 1.2;
+  position: absolute;
+  text-align: left;
+  top: -1.25rem;
+}
+
+/* base dimensions on cardContainer's */
+.developerCat {
+  height: 30rem;
+  width: 15rem;
+  position: absolute;
+  top: 3.25rem;
+  left: 0;
+}
+
+.designCat {
+  height: 30rem;
+  width: 15rem;
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
 }
 
 .flipInstruct {
-  font-size: 0.75rem;
+  color: #5f7539;
+  font-size: 0.75rem !important;
   font-style: italic;
+  position: absolute;
+  top: 23rem;
+  right: 0.5rem;
+  line-height: 1.2;
+  background-color: rgba(255, 255, 255, 0.75);
+  text-align: right;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 7px;
 }
 
 .back {
