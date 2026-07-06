@@ -1,15 +1,15 @@
 import React from "react";
 import SpadeIcon from "../components/customIcons/spadeclick";
 import { CardSection } from "../components/card/cardSection";
-import { AboutSection } from "../components/work/aboutSection";
-import { WorkSection } from "../components/work/workSection";
-import { NavSection } from "../components/work/navSection";
-import { GallerySection } from "../components/work/gallerySection";
+import { AboutSection } from "../components/sections/aboutSection";
+import { WorkSection } from "../components/sections/workSection";
+import { NavSection } from "../components/sections/navSection";
+import { GallerySection } from "../components/sections/gallerySection";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center space-y-4">
+    <div className="tktk">
+      <div className="homeContainer">
         <h1 className="introHeader">
           hi, i'm jenn<span className="introYBounce">y</span>
         </h1>

@@ -1,4 +1,4 @@
-import { Link } from "wouter";
+/* NOT IN USE - DELETE? */
 
 export default function NotFound() {
   return (
@@ -6,9 +6,6 @@ export default function NotFound() {
       <div className="text-center space-y-4">
         <h1 className="text-6xl font-bold text-foreground">404</h1>
         <p className="text-muted-foreground text-lg">Page not found</p>
-        <Link href="/" className="text-primary hover:underline text-sm">
-          Go home
-        </Link>
       </div>
     </div>
   );
