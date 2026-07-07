@@ -7,24 +7,27 @@ export class CardSection extends React.Component {
       <div className="cardWrapper">
         <Card
           role="Product and brand designer"
-          roleImg="src/components/card/greenCatDesigner.png"
+          roleImg="src/components/card/greenCatDesignerLine.png"
           roleImgAlt="A green Cheshire-inspired cat wearing glasses holding a sharpie and facing post-it notes, with a mobile phone mockup above it"
           roleClass="designCat"
-          desc="Loves bridging the designer-engineer gap — skilled at ideating on Figma"
+          roleDesc="designDesc"
+          desc="One side of bridging the designer-engineer gap — skilled at taking ideas from ideation to implementation, from Sharpie on post-it notes to Figma."
         />
         <Card
           role="Developer"
-          roleImg="src/components/card/greenCatDeveloper.png"
+          roleImg="src/components/card/greenCatDeveloperLine.png"
           roleImgAlt="A green Cheshire-inspired cat wearing glasses in front of a laptop with code against black window screens above"
           roleClass="developerCat"
-          desc="Loves bridging the designer-engineer gap. Works primarily in React and TypeScript, getting the hang of Svelte."
+          roleDesc="developerDesc"
+          desc="Another side of bridging the designer-engineer gap. Working primarily in React and TypeScript to make designs come to life while getting the hang of Svelte."
         />
         <Card
           role="Data journalist, analyst and researcher"
-          roleImg="src/components/card/greenCatResearch.png"
-          roleImgAlt="A green Cheshire-inspired cat wearing glasses in front of a laptop"
+          roleImg="src/components/card/greenCatResearchLine.png"
+          roleImgAlt="A green Cheshire-inspired cat wearing glasses in front several window screens and email-related icon. There are chart and code-related screenshots above the cat."
           roleClass="researchCat"
-          desc="Avid lover of searching for and scraping data from hard-to-get places. Experienced at working with unstructured and large structured data using Python and occasionally R and SQL."
+          roleDesc="researchDesc"
+          desc="Avid lover of searching for and scraping data from hard-to-get places. Experienced at working with large unstructured and structured data using Python and occasionally R and SQL."
         />
       </div>
     );

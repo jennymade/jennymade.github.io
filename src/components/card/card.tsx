@@ -5,6 +5,7 @@ type CardProps = {
   roleImg?: string;
   roleImgAlt?: string;
   roleClass?: string;
+  roleDesc?: string;
   desc?: string;
 };
 
@@ -19,13 +20,11 @@ export class Card extends React.Component<CardProps> {
               src={this.props.roleImg}
               alt={this.props.roleImgAlt}
             ></img>
-            <p className="cardRole">{this.props.role}</p>
+            <span className="cardRole">{this.props.role}</span>
             <span className="flipInstruct">hover to flip card</span>
           </div>
           <div className="back">
-            <ul>
-              <li>{this.props.desc}</li>
-            </ul>
+            <p className={this.props.roleDesc}>{this.props.desc}</p>
           </div>
         </div>
       </div>

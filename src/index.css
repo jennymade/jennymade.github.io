@@ -161,7 +161,7 @@ span .introYBounce:active {
 .cardContainer {
   display: inline-block;
   width: 15rem;
-  height: 25rem;
+  height: 28.5rem;
   margin: 1rem;
   /* perspective: 10px; */
 }
@@ -207,26 +207,28 @@ span .introYBounce:active {
   font-weight: 500;
   font-style: normal;
   line-height: 1.2;
-  position: absolute;
-  text-align: left;
-  top: -1.25rem;
+  position: relative;
+  top: 45%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 7px;
 }
 
 /* base dimensions on cardContainer's */
-.developerCat {
-  height: 30rem;
-  width: 15rem;
-  position: absolute;
-  top: 3.25rem;
-  left: 0;
-}
 
-.designCat {
-  height: 30rem;
+.developerCat,
+.designCat,
+.researchCat {
+  height: 35rem;
   width: 15rem;
   position: absolute;
-  top: 4.5rem;
+  top: 0;
   left: 0;
+  opacity: 0.66;
 }
 
 .flipInstruct {
@@ -234,7 +236,7 @@ span .introYBounce:active {
   font-size: 0.75rem !important;
   font-style: italic;
   position: absolute;
-  top: 23rem;
+  top: 92.5%;
   right: 0.5rem;
   line-height: 1.2;
   background-color: rgba(255, 255, 255, 0.75);
@@ -250,12 +252,16 @@ span .introYBounce:active {
   transform: rotateY(180deg);
 }
 
-.front > p,
-.back > ul {
-  list-style-type: none;
-  /* list-style: none; */
-  font-size: 0.9rem;
-  padding: 1rem;
+.back > p {
+  font-size: 1.25rem;
+  color: #5f7539;
+  position: relative;
+  top: 20%;
+  padding: 1.5rem;
+}
+
+.researchDesc {
+  top: 15% !important;
 }
 
 /* END custom styling for CARDS section */
