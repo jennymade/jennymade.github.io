@@ -4,8 +4,10 @@ import SpadeIcon from "../customIcons/spadeclick";
 export class NavSection extends React.Component {
   render() {
     return (
-      <>
-        <h2 className="navHeader" id="navSection">site navigation</h2>
+      <div className="navSectionWrapper">
+        <h2 className="navHeader" id="navSection">
+          site navigation
+        </h2>
         <p className="navDisclaimer">
           if you see{" "}
           <span className="navDisclaimerLink">
@@ -32,7 +34,7 @@ export class NavSection extends React.Component {
             art + graphics gallery <SpadeIcon size="1em" />
           </a>
         </nav>
-      </>
-    )
+      </div>
+    );
   }
 }

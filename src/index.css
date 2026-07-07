@@ -163,6 +163,7 @@ span .introYBounce:active {
   width: 15rem;
   height: 28.5rem;
   margin: 1rem;
+  filter: drop-shadow(0 0 0.5rem #c7c7c7);
   /* perspective: 10px; */
 }
 
@@ -268,8 +269,16 @@ span .introYBounce:active {
 
 /* START custom styling for NAV section */
 
+.navSectionWrapper {
+  position: sticky;
+  top: 0;
+  background-color: #f5f7f1; /* match root */
+  z-index: 1000;
+  border-bottom: 2px dotted #5f7539;
+  width: 100%;
+}
+
 .navMenu {
-  max-width: 75vw;
   margin: 0 auto;
   font-size: 1rem;
   line-height: 2.5rem;
@@ -288,6 +297,10 @@ span .introYBounce:active {
 }
 
 /* END custom styling for NAV section */
+
+.aboutHeader {
+  padding-top: 2.5rem;
+}
 
 .navHeader,
 .aboutHeader,
@@ -317,6 +330,10 @@ span .introYBounce:active {
 .workDesc p {
   text-align: left;
   padding-bottom: 1rem;
+}
+
+.navDisclaimer {
+  padding-top: 1rem;
 }
 
 .navDisclaimer,
