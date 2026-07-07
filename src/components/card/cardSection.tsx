@@ -7,7 +7,7 @@ export class CardSection extends React.Component {
       <div className="cardWrapper">
         <Card
           role="Product and brand designer"
-          roleImg="src/components/card/greenCatDesignerLine.png"
+          roleImg="/card/greenCatDesignerLine.png"
           roleImgAlt="A green Cheshire-inspired cat wearing glasses holding a sharpie and facing post-it notes, with a mobile phone mockup above it"
           roleClass="designCat"
           roleDesc="designDesc"
@@ -15,7 +15,7 @@ export class CardSection extends React.Component {
         />
         <Card
           role="Developer"
-          roleImg="src/components/card/greenCatDeveloperLine.png"
+          roleImg="/card/greenCatDeveloperLine.png"
           roleImgAlt="A green Cheshire-inspired cat wearing glasses in front of a laptop with code against black window screens above"
           roleClass="developerCat"
           roleDesc="developerDesc"
@@ -23,7 +23,7 @@ export class CardSection extends React.Component {
         />
         <Card
           role="Data journalist, analyst and researcher"
-          roleImg="src/components/card/greenCatResearchLine.png"
+          roleImg="/card/greenCatResearchLine.png"
           roleImgAlt="A green Cheshire-inspired cat wearing glasses in front several window screens and email-related icon. There are chart and code-related screenshots above the cat."
           roleClass="researchCat"
           roleDesc="researchDesc"
