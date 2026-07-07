@@ -20,7 +20,7 @@ export class Preview extends React.Component<PreviewProps> {
         {/* create a previewWrapper for each work example */}
         <div className="previewWrapper">
           {/* award badge, if it won an award */}
-          {this.props.award &&
+          {/* {this.props.award &&
             this.props.awardText?.map((txt: string, i: number) => (
               <>
                 <div className={`awardContainer container-${i}`}>
@@ -28,8 +28,19 @@ export class Preview extends React.Component<PreviewProps> {
                 </div>
                 <div className={`awardText text-${i}`}>{txt}</div>
               </>
-            ))}
-          <h4 className="previewHed">{this.props.projectHed}</h4>
+            ))} */}
+          <div className="previewHedContainer">
+            <h4 className="previewHed">{this.props.projectHed}</h4>{" "}
+            <p className="awardSubhed">
+              {this.props.award &&
+                this.props.awardText?.map((txt: string, i: number) => (
+                  <>
+                    <span className={`awardSubhedText text-${i}`}>{txt}</span>
+                    <span>{" · "}</span>
+                  </>
+                ))}
+            </p>
+          </div>
           {/* screenshots + short description of what i did */}
           <div className="previewImgDescContainer">
             <div className={`previewImgContainer ${this.props.numImgs}`}>

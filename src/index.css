@@ -434,6 +434,20 @@ a:focus {
 
 /* START styling for 'award' badge (awardSwap is in previewSwap component) */
 
+/* START new award text styling */
+
+.awardSubhed {
+  text-align: center !important;
+  margin: 0 auto;
+}
+
+.awardSubhed > * {
+  color: #5f7539;
+  font-size: 0.75rem;
+}
+
+/* END new award text styling */
+
 .awardContainer {
   position: absolute;
   top: -2rem;
@@ -582,8 +596,12 @@ a:focus {
 
 /* START styling for the actual mobile/desktop previews */
 
-.previewHed {
+.previewHedContainer {
   margin: 2.5rem auto;
+}
+
+.previewHed {
+  margin: 0 auto;
   max-width: 75vw;
   font-weight: 400;
 }

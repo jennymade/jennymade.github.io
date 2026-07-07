@@ -22,7 +22,7 @@ export class PreviewSwap extends React.Component<PreviewProps> {
         {/* create a previewWrapper for each work example */}
         <div className="previewWrapper">
           {/* award badge, if it won an award */}
-          {this.props.award &&
+          {/* {this.props.award &&
             this.props.awardText?.map((txt: string, i: number) => (
               <>
                 <div className={`awardContainer container-${i}`}>
@@ -30,8 +30,18 @@ export class PreviewSwap extends React.Component<PreviewProps> {
                 </div>
                 <div className={`awardText text-${i}`}>{txt}</div>
               </>
-            ))}
-          <h4 className="previewHed">{this.props.projectHed}</h4>
+            ))} */}
+          <div className="previewHedContainer">
+            <h4 className="previewHed">{this.props.projectHed}</h4>{" "}
+            <p className="awardSubhed">
+              {this.props.award &&
+                this.props.awardText?.map((txt: string, i: number) => (
+                  <>
+                    <span className={`awardSubhedText text-${i}`}>{txt}</span>
+                  </>
+                ))}
+            </p>
+          </div>
           {/* where the mobile preview/desktop preview GIF goes */}
           <div className="previewGifContainer">
             <img
