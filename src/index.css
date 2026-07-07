@@ -96,6 +96,12 @@ span.navIcons {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   text-align: center;
+
+  @media (max-width: 672px) {
+    max-width: 85vw;
+    /* padding-top: 2.5rem;
+    padding-bottom: 2.5rem; */
+  }
 }
 
 body {
@@ -126,9 +132,9 @@ span .introYBounce:active {
 
 .introSignature {
   position: absolute;
-  top: 0;
+  top: 1.5rem;
   left: 50vw;
-  max-width: 25rem;
+  max-width: 17.5rem;
   @media (max-width: 672px) {
     top: 2.5rem;
     left: 50vw;
