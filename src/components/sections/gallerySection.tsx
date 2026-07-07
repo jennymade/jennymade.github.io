@@ -15,84 +15,84 @@ export class GallerySection extends React.Component {
 
           <div className="galleryGrid">
             <GalleryGraphic
-              src="src/work/rejectedlicenses.png"
+              src="public/rejectedlicenses.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/california/article/rejected-license-plates-dmv-18589821.php"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/ebikes-mobile.png"
+              src="public/ebikes-mobile.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/bayarea/article/e-bike-crash-injury-21331489.php"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/leogeosatellite-mobile-forportfolio.png"
+              src="public/leogeosatellite-mobile-forportfolio.png"
               alt="TKTK"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/birdmigration-farallonislands-mobile.png"
+              src="public/birdmigration-farallonislands-mobile.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/bayarea/article/e-bike-crash-injury-21331489.php"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/birdmigration-rodeolagoon-mobile.png"
+              src="public/birdmigration-rodeolagoon-mobile.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/projects/2024/sf-bird-migration/"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/birdmigration-coyotehills-mobile.png"
+              src="public/birdmigration-coyotehills-mobile.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/projects/2024/sf-bird-migration/"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/vanderveer-milestones-mobile.png"
+              src="public/vanderveer-milestones-mobile.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/projects/2024/sf-bird-migration/"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/koreancomfortfood-tteokmanduguk.png"
+              src="public/koreancomfortfood-tteokmanduguk.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/projects/2023/bay-area-korean-comfort-food/"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/koreancomfortfood-soondaeguk.png"
+              src="public/koreancomfortfood-soondaeguk.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/projects/2023/bay-area-korean-comfort-food/"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/koreancomfortfood-galbitang.png"
+              src="public/koreancomfortfood-galbitang.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/projects/2023/bay-area-korean-comfort-food/"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/koreancomfortfood-kimbap.png"
+              src="public/koreancomfortfood-kimbap.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/projects/2023/bay-area-korean-comfort-food/"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/batteryfire-step1-mobile.png"
+              src="public/batteryfire-step1-mobile.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/sf/article/bike-scooter-battery-fire-17869505.php"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/batteryfire-step2-mobile.png"
+              src="public/batteryfire-step2-mobile.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/sf/article/bike-scooter-battery-fire-17869505.php"
               desc="TKTK"
             />
             <GalleryGraphic
-              src="src/work/batteryfire-step3-mobile.png"
+              src="public/batteryfire-step3-mobile.png"
               alt="TKTK"
               storyUrl="https://www.sfchronicle.com/sf/article/bike-scooter-battery-fire-17869505.php"
               desc="TKTK"

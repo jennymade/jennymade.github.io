@@ -36,14 +36,14 @@ export class Preview extends React.Component<PreviewProps> {
               {this.props.imgAlts.slice(0, -1).map((alt: string, i: number) => (
                 <img
                   className="previewImg"
-                  src={`src/work/${this.props.slug}-mobile-screenshot-${i + 1}.png`}
+                  src={`public/${this.props.slug}-mobile-screenshot-${i + 1}.png`}
                   alt={`${alt}[${i}]`}
                   tabIndex={0}
                 />
               ))}
               {this.props.imgAlts.slice(-1).map((alt: string, i: number) => (
                 <img
-                  src={`src/work/${this.props.slug}-mobile-screenshot-${this.props.imgAlts.length}.png`}
+                  src={`public/${this.props.slug}-mobile-screenshot-${this.props.imgAlts.length}.png`}
                   alt={`${alt}[${i}]`}
                   tabIndex={0}
                 />
@@ -62,7 +62,7 @@ export class Preview extends React.Component<PreviewProps> {
           <div className="previewGifContainer">
             <img
               className="previewGif"
-              src={`src/work/${this.props.slug}-mobile-preview.gif`}
+              src={`public/${this.props.slug}-mobile-preview.gif`}
               alt={this.props.gifAlt}
             />
           </div>
