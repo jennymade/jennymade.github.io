@@ -8,11 +8,14 @@ import { GallerySection } from "../components/sections/gallerySection";
 
 export default function Home() {
   return (
-    <div className="tktk">
+    <>
       <div className="homeContainer">
-        <h1 className="introHeader">
-          hi, i'm jenn<span className="introYBounce">y</span>
-        </h1>
+        <h1 className="introHeader">hi, i'm jenny</h1>
+        <img
+          src="/jennymade-signature.png"
+          alt="cat-esque signature"
+          className="introSignature"
+        />
         <p className="introDek">
           <span className="introDekPartOne">jack of many trades, </span>
           <span className="introDekPartTwo">
@@ -37,6 +40,6 @@ export default function Home() {
           </p> */}
         </div>
       </div>
-    </div>
+    </>
   );
 }

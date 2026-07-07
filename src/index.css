@@ -124,6 +124,18 @@ span .introYBounce:active {
 }
 /* END not working rn — bounce animation */
 
+.introSignature {
+  position: absolute;
+  top: 0;
+  left: 50vw;
+  max-width: 25rem;
+  @media (max-width: 672px) {
+    top: 2.5rem;
+    left: 50vw;
+    max-width: 15rem;
+  }
+}
+
 .introHeader {
   font-style: normal;
   font-weight: 600;
