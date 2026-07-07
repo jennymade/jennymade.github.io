@@ -298,6 +298,10 @@ span .introYBounce:active {
 
 /* END custom styling for NAV section */
 
+.navHeader {
+  padding-top: 1rem;
+}
+
 .aboutHeader {
   padding-top: 2.5rem;
 }

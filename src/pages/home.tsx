@@ -29,12 +29,12 @@ export default function Home() {
             want to chat or collaborate creatively?
           </h2>
           <p>kwonjseo [at] gmail [dot] com</p>
-          <br />
-          <p className="backToNavLink">
+          {/* comment out backToNavLink if navSection is sticky */}
+          {/* <p className="backToNavLink">
             <a href="#navSection">
               back to site navigation <SpadeIcon />
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
