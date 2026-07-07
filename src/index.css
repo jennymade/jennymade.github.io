@@ -352,6 +352,7 @@ span .introYBounce:active {
 .workDesc p {
   text-align: left;
   padding-bottom: 1rem;
+  line-height: 1.75;
 }
 
 .navDisclaimer {
