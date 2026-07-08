@@ -49,6 +49,17 @@ export class WorkSection extends React.Component {
             gifAlt="TKTK"
           />
 
+          <Preview
+            projectHed="S.F.’s iconic Powell Street is lined with empty storefronts. Can it be saved?"
+            award={false}
+            numImgs="five"
+            imgAlts={["TKTK", "TKTK", "TKTK", "TKTK", "TKTK"]}
+            slug="powellsf"
+            desc="art direction + design (Figma), code (React)"
+            url="https://www.sfchronicle.com/projects/2024/sf-powell-street-future/"
+            gifAlt="TKTK"
+          />
+
           <h3 id="datavizSubsection" className="workSubhed">
             As both a <i>developer</i> and <i>data journalist</i>, I'm thorough
             and not afraid to go after hard-to-get-data, analyze it and create

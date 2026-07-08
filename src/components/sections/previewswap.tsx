@@ -38,6 +38,7 @@ export class PreviewSwap extends React.Component<PreviewProps> {
                 this.props.awardText?.map((txt: string, i: number) => (
                   <>
                     <span className={`awardSubhedText text-${i}`}>{txt}</span>
+                    <span>{" · "}</span>
                   </>
                 ))}
             </p>
