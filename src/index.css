@@ -300,8 +300,7 @@ span .introYBounce:active {
   margin: 0 auto;
   font-size: 1rem;
   line-height: 2.5rem;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding: 1rem 0;
 
   a {
     white-space: nowrap;
