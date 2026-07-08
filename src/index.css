@@ -419,6 +419,10 @@ a:focus {
   font-weight: 400;
 }
 
+.workSubhed > span {
+  font-size: 1rem !important;
+}
+
 .workDesc {
   margin: 0 auto;
   text-align: center;

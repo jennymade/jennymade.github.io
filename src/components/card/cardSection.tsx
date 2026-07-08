@@ -27,7 +27,7 @@ export class CardSection extends React.Component {
           roleImgAlt="A green Cheshire-inspired cat wearing glasses in front several window screens and email-related icon. There are chart and code-related screenshots above the cat."
           roleClass="researchCat"
           roleDesc="researchDesc"
-          desc="Avid lover of searching for and scraping data from hard-to-get places. Experienced at working with large unstructured and structured data using Python and occasionally R and SQL."
+          desc="Avid lover of searching for and scraping data from hard-to-get places. Experienced with working with large unstructured and structured data using Python and occasionally R and SQL."
         />
       </div>
     );

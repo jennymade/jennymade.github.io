@@ -62,9 +62,17 @@ export class WorkSection extends React.Component {
 
           <h3 id="datavizSubsection" className="workSubhed">
             As both a <i>developer</i> and <i>data journalist</i>, I'm thorough
-            and not afraid to go after hard-to-get-data, analyze it and create
-            accessible <i>data visualizations</i>, useful data pipelines and{" "}
-            <i>tools</i> allowing others to better understand that data.
+            and not afraid to go after hard-to-get-data{" "}
+            <span>
+              (e.g.{" "}
+              <a href="https://www.sfchronicle.com/sf/article/ai-city-worker-san-francisco-22326139.php">
+                AI usage <SpadeClick />
+              </a>{" "}
+              in local government)
+            </span>
+            , analyze it and create accessible <i>data visualizations</i>,
+            useful data pipelines and <i>tools</i> allowing others to better
+            understand that data.
           </h3>
 
           <Preview
