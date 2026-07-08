@@ -24,7 +24,7 @@ export class AboutSection extends React.Component {
             <br />
             <p className="resumeLink">
               See more of my career journey{" "}
-              <a href="https://drive.google.com/file/d/1Zd7hBOMo8L6dNZg4lb5SUQVIXpgJ6zur/view?usp=drive_link">
+              <a href="https://drive.google.com/file/d/1Mmq5dfFmZmxhSk8M8vk0Yrd7fybiIjLn/view?usp=sharing">
                 in resume form <SpadeIcon />
               </a>{" "}
               or on{" "}
