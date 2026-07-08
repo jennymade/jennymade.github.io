@@ -32,6 +32,11 @@ export default function Home() {
             want to chat or collaborate creatively?
           </h2>
           <p>kwonjseo [at] gmail [dot] com</p>
+          <img
+            src="/jennymade-outro-signature.png"
+            alt="cat-esque signature with the phrase 'thank you for visiting' on top"
+            className="outroSignature"
+          />
           {/* comment out backToNavLink if navSection is sticky */}
           {/* <p className="backToNavLink">
             <a href="#navSection">

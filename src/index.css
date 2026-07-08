@@ -793,6 +793,7 @@ img:focus {
 
 .contactSection {
   padding-bottom: 2rem;
+  position: relative;
 }
 
 .contactHeader {
@@ -808,6 +809,27 @@ img:focus {
     padding-bottom: 1rem;
   }
 }
+
+.outroSignature {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 5rem;
+
+  @media (min-width: 320px) {
+    top: 15rem;
+  }
+
+  @media (min-width: 640px) {
+    top: 12.5rem;
+  }
+
+  @media (min-width: 928px) {
+    top: 8rem;
+  }
+}
+
+/* not currently in use because sticky nav exists */
 
 .backToNavLink {
   font-family: serif;
