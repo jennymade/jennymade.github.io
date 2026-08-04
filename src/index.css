@@ -294,6 +294,11 @@ span .introYBounce:active {
   z-index: 1000;
   border-bottom: 2px dotted #5f7539;
   width: 100%;
+
+  @media (max-width: 672px) {
+    position: relative;
+    border-bottom: none;
+  }
 }
 
 .navMenu {
@@ -832,10 +837,15 @@ img:focus {
   }
 }
 
-/* not currently in use because sticky nav exists */
-
 .backToNavLink {
-  font-family: serif;
-  font-size: 0.85rem;
-  font-style: italic;
+  /* by default, don't show this button */
+  display: none;
+
+  /* show this button if no sticky nav */
+  @media (max-width: 672px) {
+    display: block;
+    font-family: serif;
+    font-size: 0.85rem;
+    font-style: italic;
+  }
 }

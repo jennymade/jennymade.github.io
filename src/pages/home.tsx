@@ -38,11 +38,11 @@ export default function Home() {
             className="outroSignature"
           />
           {/* comment out backToNavLink if navSection is sticky */}
-          {/* <p className="backToNavLink">
+          <p className="backToNavLink">
             <a href="#navSection">
               back to site navigation <SpadeIcon />
             </a>
-          </p> */}
+          </p>
         </div>
       </div>
     </>
