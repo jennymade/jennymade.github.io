@@ -818,6 +818,13 @@ img:focus {
   }
 }
 
+.contactHeader > img {
+  padding-top: 1rem;
+  @media (max-width: 672px) {
+    padding-top: 2.5rem;
+  }
+}
+
 .outroSignature {
   position: absolute;
   left: 50%;
