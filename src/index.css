@@ -830,18 +830,7 @@ img:focus {
   left: 50%;
   transform: translateX(-50%);
   max-width: 5rem;
-
-  @media (min-width: 320px) {
-    top: 15rem;
-  }
-
-  @media (min-width: 640px) {
-    top: 12.5rem;
-  }
-
-  @media (min-width: 928px) {
-    top: 8rem;
-  }
+  padding-top: 2.5rem;
 }
 
 .backToNavLink {
