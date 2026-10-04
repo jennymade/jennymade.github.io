@@ -19,11 +19,11 @@ export class NavSection extends React.Component {
         <nav className="navMenu">
           jump to these links:{" "}
           <a href="#designSubsection">
-            design work <SpadeIcon size="1em" />
+            design <SpadeIcon size="1em" />
           </a>{" "}
           <span className="navIcons">♠</span>{" "}
           <a href="#datavizSubsection">
-            data viz work + dashboards + tools <SpadeIcon size="1em" />
+            data viz <SpadeIcon size="1em" />
           </a>{" "}
           <span className="navIcons">♦</span>{" "}
           <a href="#otherSubsection">
@@ -31,7 +31,7 @@ export class NavSection extends React.Component {
           </a>{" "}
           <span className="navIcons">♣</span>{" "}
           <a href="#gallerySubsection">
-            art + graphics gallery <SpadeIcon size="1em" />
+            art <SpadeIcon size="1em" />
           </a>
         </nav>
       </div>
